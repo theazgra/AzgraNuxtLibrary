@@ -7,6 +7,7 @@ export default function() {
     }
 
     this.nuxt.hook('components:dirs', (dirs) => {
+        console.log('components:dirs hook');
         dirs.push({
             path: join(__dirname, '../src/components'),
             prefix: 'azgra'

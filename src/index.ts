@@ -1,4 +1,15 @@
-export { notificationService } from './services/notification';
+import { notificationService } from './services/notification';
+// import { userModule } from './store-modules/userModule'
 
-// export const Greeter = (name: string) => `Hello ${name}`;
-// module.exports = { notificationService }
+
+export {
+    notificationService
+    // userModule
+}
+
+// // Services
+// export { notificationService } from './services/notification';
+
+
+// // Store modules
+// export * as userModule from './store-modules/user'
