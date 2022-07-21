@@ -1,6 +1,7 @@
 {
   "name": "AzgraNuxtLibrary",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "Azgra demo nuxt library",
   "main": "src/index.ts",
   "repository": "https://github.com/theazgra/AzgraNuxtLibrary",
@@ -12,8 +13,11 @@
     "nuxt"
   ],
   "devDependencies": {
+    "element-ui": "^2.15.9",
     "nuxt": "^2.15.8",
     "sass": "~1.32.6",
-    "sass-loader": "10.1.1"
-  }
+    "sass-loader": "10.1.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {}
 }
