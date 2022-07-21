@@ -1,5 +1,7 @@
 import { getterTree, mutationTree, actionTree } from 'typed-vuex';
 
+export const namespaced = true;
+
 export const state = () => ({
     name: ''
 });
@@ -19,11 +21,3 @@ export const actions = actionTree({state, getters, mutations}, {
         commit('SET_NAME', name);
     }
 });
-
-// export const userModule = {
-//     namespaced: true,
-//     state,
-//     getters,
-//     mutations,
-//     actions
-// };

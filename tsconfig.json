@@ -6,6 +6,6 @@
         "outDir": "./lib",
         "strict": true
     },
-    "include": ["src", "store/userModule.ts"],
+    "include": ["src", "src/store-modules/userModule.ts"],
     "exclude": ["node_modules"]
 }
