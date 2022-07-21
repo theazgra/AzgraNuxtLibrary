@@ -1,0 +1,10 @@
+{
+  "name": "AzgraNuxtLibrary",
+  "version": "1.0.0",
+  "description": "Azgra demo nuxt library",
+  "main": "index.js",
+  "repository": "https://github.com/theazgra/AzgraNuxtLibrary",
+  "author": "Vojtech Moravec",
+  "license": "MIT",
+  "private": true
+}
