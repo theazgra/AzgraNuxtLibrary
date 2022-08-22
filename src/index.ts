@@ -1,10 +1,10 @@
 import { notificationService } from './services/notification';
-// import { userModule } from './store-modules/userModule'
+import * as userModule from './store-modules/user'
 
 
 export {
-    notificationService
-    // userModule
+    notificationService,
+    userModule
 }
 
 // // Services
